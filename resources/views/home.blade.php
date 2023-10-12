@@ -1,11 +1,12 @@
 @extends('layouts.admin')
+
 @section('content')
 <div class="content">
     <div class="row">
         <div class="col-lg-12">
             <div class="card">
                 <div class="card-header">
-                    Dashboard
+                    {{ __('Dashboard') }}
                 </div>
 
                 <div class="card-body">
@@ -15,7 +16,7 @@
                         </div>
                     @endif
 
-                    You are logged in!
+                    {{ __('You are logged in!') }}
                 </div>
             </div>
         </div>
